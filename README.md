@@ -1,2 +1,3 @@
-# lister_3
-Workbook for the Lister codebreaking course
+# Lister Codebreaking
+
+Click on the stages above to explore the course!
