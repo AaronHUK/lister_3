@@ -6,6 +6,7 @@ We can do this with a for loop!
 
 ```python
 displayname = input("What's your name?")
+
 for char in displayname:
   print(f"! {char} !")
 ```
@@ -16,10 +17,13 @@ Here's a more complex demonstration of how the indenting works:
 
 ```python
 displayname = input("What's your name?")
+
 print("I know your name now, let me spell it...")
+
 for char in displayname:
   print("Let me see, the next letter was:")
   print(f"{char}!")
+
 print("I'm done spelling your name now :)")
 ```
 
@@ -51,7 +55,7 @@ Brian!
   
   We want to print the name once before the for loop, and once afterwards.
   
-  In the for loop itself, we want to print 2 lines, so we should have 2 print statements.
+  In the for loop itself, we want to print 2 lines for each character, so we should have 2 print statements.
 </details>
 
 <details>
