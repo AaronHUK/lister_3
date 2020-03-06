@@ -26,3 +26,13 @@ Can you print this: "Hello Aaron, the 3rd character is r and the 4th character i
   
   Remember that python counts up from 0, so we'll use [2] to get the 3rd character.
 </details>
+
+<details>
+  <summary>Click for answer!</summary>
+  
+  Try this code:
+  ```python
+  displayname = input("What's your name?")
+  print(f"Hello {displayname}, the 3rd character is {displayname[2]} and the 4th character is {displayname[3]}")
+  ```
+</display>
