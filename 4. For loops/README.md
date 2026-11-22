@@ -31,7 +31,7 @@ Here we indented **2** lines, and *both* lines were run *for every* character in
 
 The last line was not indented, and so was not in the for loop - it only printed once.
 
-# Challenge
+# Challenge 1
 
 Can you take someone's name, and then print it out like this?
 ```
@@ -73,6 +73,18 @@ Brian!
   ```
 </details>
   
+# printing numbers in for loops
+
+You can also use for loops to count with numbers. Try running this:
+
+```python
+num = 1
+name = input("Give me your name: ")
+for char in name:
+  print(f"{num}: {name}")
+  num = num + 1
+```
+
 # What does this do?!
 
 ```python
@@ -81,4 +93,37 @@ for char in displayname * 2:
   print(f"{char}")
 ```
 
+# Challenge 2
+
+Can you write a program that takes in a name and then prints this?
+
+```
+What is your name? Brian
+B
+rr
+iii
+aaaa
+nnnnn
+```
+
+<details>
+  <summary>Click for hint!</summary>
+
+  We need to have a number that increases in each loop like the `num` we used above.
+
+  Then we need to use * like the example above to print each letter more than once
+ </details>
+
+ <details>
+  <summary>Click for answer!</summary>
+
+  Try this code:
   
+  ```python
+name = input("What's your name?")
+num = 1
+for char in name:
+    print(char * num)
+    num = num + 1
+  ```
+</details>
