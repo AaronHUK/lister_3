@@ -85,6 +85,19 @@ for char in name:
   num = num + 1
 ```
 
+
+# Challenge 2
+
+Can you make this code count in 2s instead of 1s? e.g.
+
+```
+2: A
+4: a
+6: r
+8: o
+10: n
+```
+
 <details>
   <summary>Click for hint!</summary>
 
@@ -107,19 +120,6 @@ for char in name:
   ```
 </details>
 
-
-# Challenge 2
-
-Can you make this code count in 2s instead of 1s? e.g.
-
-```
-2: A
-4: a
-6: r
-8: o
-10: n
-```
-
 # What does this do?!
 
 ```python
@@ -128,7 +128,7 @@ for char in displayname * 2:
   print(f"{char}")
 ```
 
-# Challenge 2
+# Challenge 3
 
 Can you write a program that takes in a name and then prints this?
 
