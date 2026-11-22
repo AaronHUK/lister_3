@@ -85,6 +85,41 @@ for char in name:
   num = num + 1
 ```
 
+<details>
+  <summary>Click for hint!</summary>
+
+  We want the first number to be 2 instead of 1, so we should start with num being 2 instead of 1.
+
+  We also want the count to increase by 2 instead of 1, so we should add 2 in the for loop instead of 1.
+</details>
+
+<details>
+  <summary>Click for answer!</summary>
+
+  Try this code:
+
+  ```python
+num = 2
+name = input("Give me your name: ")
+for char in name:
+  print(f"{num}: {name}")
+  num = num + 2
+  ```
+</details>
+
+
+# Challenge 2
+
+Can you make this code count in 2s instead of 1s? e.g.
+
+```
+2: A
+4: a
+6: r
+8: o
+10: n
+```
+
 # What does this do?!
 
 ```python
