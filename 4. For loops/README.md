@@ -15,6 +15,8 @@ Note that the print line there has 2 spaces at the start - the text is **indente
 
 Here's a more complex demonstration of how the indenting works:
 
+## Indenting example
+
 ```python
 displayname = input("What's your name?")
 
@@ -125,7 +127,7 @@ for char in name:
 ```python
 displayname = input("What's your name?")
 for char in displayname * 2:
-  print(f"{char}")
+  print(char)
 ```
 
 # Challenge 3
